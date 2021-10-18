@@ -1,0 +1,64 @@
+.referent{
+	margin: 10px;
+	text-align: right;
+}
+#title{
+	color: #d93025;
+    font-size: 20px; 
+}
+form{
+	display: block;
+    text-align: -webkit-center;
+}
+
+form>table{
+	display: block;
+    text-align: -webkit-left;
+}
+.feild{
+	background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 584px;
+	padding-left: 14px;
+	font-size: 16px;
+}
+.feild_exp{
+	background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 12px;
+    z-index: 3;
+    height: 30px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 584px;
+	padding-left: 14px;
+	font-size: 16px;
+}
+.button{
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+	user-select: none;
+}
+.button:hover{
+	border: 1px solid #4090f1;
+}
